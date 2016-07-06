@@ -55,15 +55,14 @@ body {
 	font-size: 0;
 	position: relative; 
 	overflow: hidden;
-	
 }
 .nav li {
-	cursor: pointer;
 	line-height: 1;
 	letter-spacing:normal; 
 	display: -moz-inline-stack!important;
     display:inline;
    	font-size: 14px;
+   	cursor: pointer;
 }
 .nav li a {
 	display: inline-block;
@@ -76,16 +75,17 @@ body {
 .first_nav a {
 	color: #60b5ed;
 }
+
 .second_nav li,
 .second_nav li a {
 	color: #fefefe;
 	border: 1px solid transparent;
-	padding: 9px 10px 11px 0px;
+	padding: 9px 10px 9px 10px;
 }
 
 .second_nav {
 	float: right;
-	margin: 0px 10px 0px 15px;
+	margin: 0px 15px 0px 20px;
 }
 
 .second_nav .inner_block {
@@ -96,16 +96,17 @@ body {
 	content: " ";
 	display: inline-block;
 	vertical-align: middle;
-	width: 20px;
-	height: 22px;
+	width: 17px;
+	height: 19px;
 	margin: -5px 10px -10px -10px;
 	float: left;
-	background: url("../img/inventicons.png") no-repeat 0 0;
+	background: url("../img/inventicons.png") no-repeat 0% 0%;
 }
 
 .first_nav  li a:hover {
 	background: #4eabda;
 	color: #fff;
+	display: inline-block;
 }
  
 .inner_block:hover {
@@ -113,7 +114,7 @@ body {
 }
 
 .flag a:hover,
-.block:hover   {
+.block:hover {
 	background: rgba(80,176,220,1);
 	background: -moz-linear-gradient(top, rgba(80,176,220,1) 0%, rgba(117,189,209,1) 41%, rgba(46,121,196,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(80,176,220,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(46,121,196,1)));
@@ -121,7 +122,6 @@ body {
 	background: -o-linear-gradient(top, rgba(80,176,220,1) 0%, rgba(117,189,209,1) 41%, rgba(46,121,196,1) 100%);
 	background: -ms-linear-gradient(top, rgba(80,176,220,1) 0%, rgba(117,189,209,1) 41%, rgba(46,121,196,1) 100%);
 	background: linear-gradient(to bottom, rgba(80,176,220,1) 0%, rgba(117,189,209,1) 41%, rgba(46,121,196,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50b0dc', endColorstr='#2e79c4', GradientType=0 );
 	border: 1px solid #4399d3; 
 	border-radius: 3px 3px 3px 3px;
 	color: #fff;
@@ -240,7 +240,6 @@ input[type="submit"] {
 	background: -o-linear-gradient(top, rgba(79,172,219,1) 0%, rgba(117,189,209,1) 41%, rgba(46,124,196,1) 100%);
 	background: -ms-linear-gradient(top, rgba(79,172,219,1) 0%, rgba(117,189,209,1) 41%, rgba(46,124,196,1) 100%);
 	background: linear-gradient(to bottom, rgba(79,172,219,1) 0%, rgba(117,189,209,1) 41%, rgba(46,124,196,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4facdb', endColorstr='#2e7cc4', GradientType=0 );
 }
 
 p {

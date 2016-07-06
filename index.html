@@ -4,90 +4,45 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Композиция с красным, синим и желтым</title>
+	<title>Cadastre</title>
 </head>
-<body>
-	<table>
-		<tr class="bgd">
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr> <!--1-->
-			<td class="bgd"></td>
-			<td colspan="2"> </td>
-			<td colspan="3">  </td>
-			<td class="yellow_" colspan="2"> </td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--2-->
-			<td class="bgd"></td>
-			<td rowspan="2"></td>
-			<td class="red_"  colspan="4" rowspan="4"></td>
-			<td class="yellow_" colspan="2" rowspan="2"></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--3-->
-			<td class="bgd"></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--4-->
-			<td class="bgd"></td>
-			<td rowspan="3"></td>
-			<td rowspan="2"></td>
-			<td rowspan="2"></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--5-->
-			<td class="bgd"></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--6-->
-			<td class="bgd"></td>
-			<td class="black_2" ></td>
-			<td class="black_2"></td>
-			<td colspan="2"></td>
-			<td colspan="2"></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--7-->
-			<td class="bgd"></td>
-			<td class="yellow_  last" rowspan="3"></td>
-			<td class="black_2"></td>
-			<td class="black_2"></td>
-			<td colspan="2"></td>
-			<td class="blue_" colspan="2" rowspan="2"></td>
-			<td class="bgd"></td>
-		</tr>
-		<tr><!--8-->
-			<td class="bgd"></td>
-			<td class="last" colspan="2" rowspan="2"></td>
-			<td  class="black_" colspan="2"></td>
-			
-		</tr>
-		<tr><!--9-->
-			<td class="bgd last"></td>			
-			<td  class="last" colspan="4"></td>
-			<td class="bgd"></td>			
-		</tr>
-		<tr class="bgd">
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td class="bgd"></td
-		</tr>
-	</table>
 
+<body>
+	<div class="MainContainer clearfix">
+		<div class="nav clearfix">
+			<ul class="second_nav">
+				<li class="flag"><a href="#">Minhas Ofertas</a></li>
+				<li class="block"><a href="#">Ola!<a class="inner_block" href="#">Entrar</a>&nbsp;ou&nbsp;<a class="inner_block" href="#">&nbsp;Cadastre-se</a></a></li>
+			</ul> 
+			<ul class="first_nav">
+				<li><a href="#">Meu YouBike</a></li>
+				<li><a href="#">Vender</a></li>
+				<li><a href="#">Forum</a></li>
+				<li><a href="#">Contato</a></li>
+				<li><a href="#">Ajuda</a></li>			
+			</ul> 
+		</div>
+		
+		<div class="cadastre">
+			<h1>Cadastre-se</h1>
+			<form action="">
+				<input type="button" name="" />
+				<p class="title">OU</p>
+				<input type="text" placeholder="First Name" />
+				<input type="text" placeholder="Last Name" />
+				<input type="email" placeholder="Email Address" />
+				<input type="password" placeholder="Choose Password" />
+				<input type="password" placeholder="Password Confirm" />
+
+				<div>			
+					<input type="checkbox" id="chek"/>
+					<label for="chek"><span></span>Send me Youbike updates and tips</label>
+				</div>
+				
+				<input type="submit" value="Create my Account">
+				<p>By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</p>
+			</form>
+		</div>
+	</div>
 </body>
 </html>
